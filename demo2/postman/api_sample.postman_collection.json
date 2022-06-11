@@ -1,0 +1,56 @@
+{
+  "info": {
+    "_postman_id": "60bc518a-5b04-40da-970c-36be0c76bdab",
+    "name": "Spring Boot Demo Post/Get",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "5936056"
+  },
+  "item": [
+    {
+      "name": "AddItem",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"key\":\"dummyKey\",\n    \"value\":\"dummyValue\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8080/addItem",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "addItem"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GetItem",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/getItem/dummyKey",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "getItem",
+            "dummyKey"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

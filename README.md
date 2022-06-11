@@ -1,20 +1,46 @@
-# Java Sprint Boot Stater -- Full Project and Docs Coming Soon
+# Java Spring Boot Stater
+
 A basic educational starter project for java spring boot.
 
-
 ## Requirements
-In order to run these projects you will need to have a machine set up for Java/Springboot development. If your machine is not set up for this I highly advise giving the [repo](https://github.com/CoffeeCodeAndCreatine/developer_set_up) a read though.
 
+In order to run these projects you will need to have a machine set up for Java/Springboot development. If your machine
+is not set up for this I highly advise giving the [repo](https://github.com/CoffeeCodeAndCreatine/developer_set_up) a
+read though.
 
-## Branches
-Teh purpose of this repo is to give a few different examples of what a spring boot project may look like. Each branch will have a different level of complexity and come with different features.
+To make it though this document you will need:
 
-The plan is that each branch will be documented and have an accompanying youtube video to explain how to code, build and run the project.
+* Java
+* Mvn
+* Docker
 
-* Level 1 - Hello World - A Simple Get
-* Level 2 - Changing The World - A Simple Post
-* Level 3 - Basic Unit Tests
-* Level 4 - Adding A Database
-* Level 5 - Adding Docker
+## Modules
 
-The Main branch has all features and documents included, but if you want to go though the simple projects, you will need to clone down the listed branch itself.
+The purpose of these modules, as well as these projects it to give an idea of what java and spring boot looks like, and
+how you can get started.
+Each module is independent, however I suggest you start with 1 and work your way up.
+
+### Module 1
+
+Module 1 is a simple web server with a single get call retuning text. A readme for the module can be
+found [here](demo1/README.md) and a youtube coding session can be found [here]().
+
+### Module 2
+
+Module 2 is a simple web server, this time with a get and a post that return json rather than text. A readme for the
+module can be found [here](demo2/README.md) and a youtube coding session can be found [here]()
+
+### Module 3
+
+Module 3 is a simple web server with a get call, that also has some unit tests. A readme for the module can be
+found [here](demo3/README.md) and a youtube coding session can be found [here]()
+
+### Module 4
+
+Module 4 is a web server with an in memory database. We create, update, delete, and list objects. A readme for the
+module can be found [here](demo4/README.md) and a youtube coding session can be found [here]()
+
+### Module 5
+
+Module 5 is a simple web server, however this one we put in a docker container and deploy locally. A readme for the
+module can be found [here](demo5/README.md) and a youtube coding session can be found [here]()

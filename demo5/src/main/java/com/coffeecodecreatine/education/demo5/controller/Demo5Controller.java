@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Demo5Controller {
 
     @GetMapping("helloWorld")
-    String hello(){
+    String hello() {
         return "Hello World From Docker";
     }
 }

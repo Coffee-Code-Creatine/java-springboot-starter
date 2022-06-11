@@ -1,0 +1,121 @@
+{
+  "info": {
+    "_postman_id": "a2939c04-5435-45ea-8f37-05fba18fef34",
+    "name": "Spring Boot Memory DB",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "5936056"
+  },
+  "item": [
+    {
+      "name": "Get Items",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/getItems",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "getItems"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add Item",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"name\": \"add a new item\",\n    \"details\": \"making sure things work\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8080/addItem",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "addItem"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update Item",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"name\": \"add a new item\",\n    \"details\": \"needed to change this\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8080/updateItem/3",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "updateItem",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete Item",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/deleteItem/3",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "deleteItem",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Item",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/getItem/3",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "getItem",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
