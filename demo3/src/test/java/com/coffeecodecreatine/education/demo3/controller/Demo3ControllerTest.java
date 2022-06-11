@@ -23,12 +23,11 @@ class Demo3ControllerTest {
         solutions.put(9, false);
         solutions.put(10, false);
 
-        for(int i = 1; i < 10; i++){
-            try{
+        for (int i = 1; i < 10; i++) {
+            try {
                 boolean isPrime = PrimeNumbers.isPrime(i);
-                assertEquals(solutions.get(i),isPrime);
-            }
-            catch(Exception e){
+                assertEquals(solutions.get(i), isPrime);
+            } catch (Exception e) {
                 System.out.println("Exception throw");
                 assertEquals(true, false);
             }
@@ -37,7 +36,7 @@ class Demo3ControllerTest {
 
     @Test
     public void isPrimeToLarge() {
-        assertThrows(Exception.class, ()->{
+        assertThrows(Exception.class, () -> {
             boolean isPrime = PrimeNumbers.isPrime(11);
         });
     }

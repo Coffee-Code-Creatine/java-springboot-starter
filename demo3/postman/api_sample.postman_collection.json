@@ -1,0 +1,18 @@
+{
+  "info": {
+    "_postman_id": "1078c0c2-09d3-4075-bf91-6713c2304e03",
+    "name": "Sprint Boot Test",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "5936056"
+  },
+  "item": [
+    {
+      "name": "isPrime",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
