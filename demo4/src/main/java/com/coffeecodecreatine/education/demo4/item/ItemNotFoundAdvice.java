@@ -12,7 +12,7 @@ class ItemNotFoundAdvice {
     @ResponseBody
     @ExceptionHandler(ItemNotFoundException.class)
     @ResponseStatus(HttpStatus.NOT_FOUND)
-    String employeeNotFoundHandler(ItemNotFoundException ex) {
+    String itemNotFoundHandler(ItemNotFoundException ex) {
         return ex.getMessage();
     }
 }

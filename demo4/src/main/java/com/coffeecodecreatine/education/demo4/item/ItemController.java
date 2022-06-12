@@ -33,10 +33,10 @@ public class ItemController {
     @PutMapping("/updateItem/{id}")
     Item updateItem(@RequestBody Item item, @PathVariable Long id) {
         return repository.findById(id)
-                .map(employee -> {
-                    employee.setName(item.getName());
-                    employee.setDetails(item.getDetails());
-                    return repository.save(employee);
+                .map(databaseItem -> {
+                    databaseItem.setName(item.getName());
+                    databaseItem.setDetails(item.getDetails());
+                    return repository.save(databaseItem);
                 })
                 .orElseGet(() -> {
                     item.setId(id);
