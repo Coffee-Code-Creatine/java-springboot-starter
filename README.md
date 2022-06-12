@@ -1,5 +1,5 @@
-# Java Spring Boot Stater
-<a href="https://www.buymeacoffee.com/coffeecode6" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+# Java Spring Boot Stater <div style="float: right"> <a href="https://www.buymeacoffee.com/coffeecode6" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a> </div> 
+
 ```diff
 - youtube videos coming soon
 ```
